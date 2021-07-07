@@ -18,3 +18,25 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
+nav img{
+    width: 150px;
+}
+
+.nav-link{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-link ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
