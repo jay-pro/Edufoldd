@@ -203,3 +203,17 @@ h3{
     width:100%;
 }
 
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(233, 19, 119, 0.7);
+}
+
