@@ -18,8 +18,8 @@
         <section class="header">
             <nav>
                 <a href="index.html"><img src="images/logo.png"></a>
-                <div class="nav-links">
-                    <i class="fa fa-times"></i>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="">HOME</a></li>
                         <li><a href="">ABOUT</a></li>
@@ -28,7 +28,7 @@
                         <li><a href="">CONTACT</a></li>
                     </ul>
                 </div>
-                <i class="fa fa-bars"></i>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
 
             </nav>
 
@@ -38,5 +38,18 @@
                 <a href="" class="hero-btn">Visit Us To Know More</a>
             </div>
         </section>
+
+        <!-- ------ JavaScript for Toggle Menu ------ -->
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
     </body>
 </html>
