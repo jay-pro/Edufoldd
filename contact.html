@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+        <link rel="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <h1>Contact Us</h1>
+        </section>
+
+        <!-- ------ Contact Us ------ -->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5955.774782879283!2d-79.19484479233823!3d43.7858372303961!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4da713dbb4b65%3A0xbc6afd045f7bfd61!2sCentennial%20College%20-%20Morningside%20Campus!5e1!3m2!1sen!2s!4v1626536728599!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>941 Progress Ave, Scarborough, ON M1G 3T8, Canada</h5>
+                            <p>Affiliations: Canadian Collegiate Athletic Association</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>416-289-5300 (Mon. to Fri. 9:00am to 4:30pm EST)</h5>
+                            <p>or toll-free in Ontario 1-800-268-4419</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>info@centennialcollege.com</h5>
+                            <p>Enrolment Services Centennial College<br>P.O. Box 631, Station A<br>Toronto, ON, M1K 5E9</p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="contact-col">
+                    <form action=""></form>
+                </div>
+                
+            </div>
+        </section>
+             
+        <!-- ------ Footer ------ -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque habitant morbi tristique senectus et net faucibus est<br>sollicitudin ut.
+                Maecenas ut venenatis ex, et dapibus pusru.</p>
+            
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                <i class="fa fa-pinterest"></i>
+                <i class="fa fa-github"></i>
+            </div>
+            <p>Implemented with GitHub <i class="fa fa-heart-o"></i> by Bùi Hà Nhi </p>
+        </section>
+
+        <!-- ------ JavaScript for Toggle Menu ------ -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
