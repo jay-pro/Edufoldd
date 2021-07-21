@@ -9,6 +9,7 @@ Watch video descibing the web in YouTube:
 - About Page: https://www.youtube.com/watch?v=7wPHQwFaMdo
 - Course Page: https://youtu.be/watch?v=5bTGk4Tyhhk
 - Blog Page: https://youtu.be/watch?v=rzG7K2EtDvc
-- Contech Page: https://youtu.be/oMJQ-14zNzM
+- Contact Page: https://www.youtube.com/watch?v=UA40_U_xC-w
 
-- Connect Page to Page: 
+- Connect Page to Page: https://youtu.be/watch?v=1Im62uUha9o
+
