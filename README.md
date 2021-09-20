@@ -3,7 +3,7 @@ Implemented by Bùi Hà Nhi
 
 Visit my web:  [University Web Design](https://parallel-descriptive-mouth.glitch.me)
 
-Watch video descibing the web in YouTube:
+Watch videos descibing the web in YouTube:
 - Home Page: https://www.youtube.com/watch?v=pxIAvXh3XwE
 - About Page: https://www.youtube.com/watch?v=7wPHQwFaMdo
 - Course Page: https://youtu.be/watch?v=5bTGk4Tyhhk
